@@ -65,7 +65,7 @@ public class Quiz : MonoBehaviour
         DisplayAnswer(index);
         SetButtonState(false);
         timer.CancelTimer();
-        scoreText.text = "Puan: " + scoreKeeper.calculateScore(); 
+        scoreText.text = "Doğru Cevap Yüzdesi: " + scoreKeeper.calculateScore(); 
     }
 
     void DisplayAnswer(int index) {
